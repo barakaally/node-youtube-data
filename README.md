@@ -39,8 +39,8 @@ api.getVideoInfo('videoId',(errors,data)=>{
 })
 ```
 
-### The data response from Youtube is very big Json object but the interesting part is video url ,but beafore all we can have two type of videos, encrpted(ciphered) non-encrypted
-sample response for ciphered video
+### The data response from Youtube is very big Json object but the interesting part is video url ,but before all we can have two type of videos, encrpted(ciphered) and non-encrypted
+Sample response for ciphered video
 ```
 {
         "csn": "GJxpYIjqN-LJsAKIkJbwAQ",
@@ -122,7 +122,7 @@ sample response for ciphered video
 data.player_response.streamingData.formats[0].signatureCipher.url+&signature={deciphered signature }
 ```
 
-sample response for non-ciphered video
+Sample response for non-ciphered video
 ```
 {
         "csn": "DK5pYIPDNeiOmLAPyr-_oAM",
