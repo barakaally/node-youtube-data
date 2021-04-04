@@ -1,0 +1,29 @@
+{
+  "name": "youtube-data",
+  "version": "1.0.0",
+  "description": "retrieve youtube video data such as rtsp url ,video formats ,audio e.t.c by using youtube video id ",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barakaally/youtube-data.git"
+  },
+  "keywords": [
+    "youtube",
+    "youtube-data",
+    "rtsp"
+  ],
+  "author": "baraka ally <baraka.ally.co.tz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barakaally/youtube-data/issues"
+  },
+  "homepage": "https://github.com/barakaally/youtube-data#readme",
+  "dependencies": {
+    "fetch-node": "0.0.1"
+  }
+}
