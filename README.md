@@ -1,9 +1,9 @@
 # YoutubeData
 
 ## Typescript or ES6
-```import {YoutubeData} from 'youtube-data';``` 
+```import {YoutubeData} from 'node-youtube-data';``` 
 ## Common js
-```const YoutubeData= require('youtube-data');```
+```const YoutubeData= require('node-youtube-data');```
 ## Create instance of YoutubeData 
 ```const api=new YoutubeData(); ```
 ### To retrive YoutubeVideo data ,will need to use getVideoInfo method

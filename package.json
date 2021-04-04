@@ -1,5 +1,5 @@
 {
-  "name": "youtube-data",
+  "name": "node-youtube-data",
   "version": "1.0.0",
   "description": "retrieve youtube video data such as rtsp url ,video formats ,audio e.t.c by using youtube video id ",
   "main": "index.js",
