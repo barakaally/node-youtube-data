@@ -1,6 +1,6 @@
 export declare class YoutubeData {
     constructor()
-    getVideoInfo(videoId: string): Promise<{ data: VideoInfo, errors?: any }>;
+    getVideoInfo(videoId: string): Promise<{errors?: any ,data: VideoInfo}>;
     getVideoInfo(videoId: string,callback:(errors:any,data:VideoInfo)=>void):void
 }
 
