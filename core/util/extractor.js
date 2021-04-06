@@ -15,8 +15,8 @@ class YExtractor {
         b[z[0]] = z[1].replace("+", "").replace(",", "");
       } else {
         if (z.includes("player_response")) {
-          const y = z.filter((x) => x !== "player_response").join("=");
-          b["player_response"] = JSON.parse(y);
+          const h = z.filter((x) => x !== "player_response").join("=");
+          b["player_response"] = JSON.parse(h);
           b["player_response"]["streamingData"] = this.sD(
             b["player_response"]["streamingData"]
           );
